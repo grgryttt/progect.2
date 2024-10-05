@@ -1,0 +1,27 @@
+
+.namee{
+    color:rgb(56, 73, 126);
+}
+body {
+    background-color: #adbec7; 
+}
+.pages{
+    padding-top: 50px;
+    color: rgb(37, 55, 80);
+}
+main{
+    width: 600px;
+    margin: auto;
+    background: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+div{
+    text-align: center;
+    padding-bottom: 40px;
+}
+div:last-child {
+    padding-bottom: 0; 
+}

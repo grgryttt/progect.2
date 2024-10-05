@@ -1,0 +1,37 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background: linear-gradient(#87858b, #c0bfc4);
+    background-size: cover;
+}
+#slider {
+    width: 500px;
+    height: 400px;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+.container {
+    width: 2500px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s linear;
+}
+
+.container img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.wrapper{
+    width: 500px;
+    display:flex;
+    align-items: center;
+    margin: auto;
+}
